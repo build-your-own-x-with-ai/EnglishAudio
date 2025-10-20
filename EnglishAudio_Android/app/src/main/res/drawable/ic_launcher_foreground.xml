@@ -1,0 +1,60 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <group
+        android:translateX="54"
+        android:translateY="54">
+        
+        <!-- 耳机头带 -->
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M-16,-8 Q0,-20 16,-8"
+            android:strokeWidth="4"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round" />
+        
+        <!-- 耳机左侧 -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M-16,-8 L-16,8 Q-16,12 -20,12 L-22,12 Q-24,12 -24,10 L-24,-2 Q-24,-6 -20,-6 Z" />
+        
+        <!-- 耳机右侧 -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M16,-8 L16,8 Q16,12 20,12 L22,12 Q24,12 24,10 L24,-2 Q24,-6 20,-6 Z" />
+        
+        <!-- 字母 A (大而清晰) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M-4,0 L0,-12 L4,0 M-3,-4 L3,-4"
+            android:strokeWidth="3"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        
+        <!-- 音符装饰 -->
+        <path
+            android:fillColor="#FFD700"
+            android:pathData="M10,-16 Q10,-18 11,-18 L11,-12 Q11,-10 10,-10 Z M11,-18 L14,-19 L14,-13 L11,-12 Z" />
+        
+        <!-- 音波效果 -->
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M-28,2 Q-30,2 -30,4"
+            android:strokeWidth="2"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round"
+            android:strokeAlpha="0.6" />
+        
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M28,2 Q30,2 30,4"
+            android:strokeWidth="2"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round"
+            android:strokeAlpha="0.6" />
+    </group>
+</vector>
